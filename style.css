@@ -1,3 +1,7 @@
+body {
+  padding: 50px;
+}
+
 .first-sec {
   display: flex;
   justify-content: center;
@@ -52,4 +56,46 @@ span {
   border: 1px solid #4e4e4e;
   width: 143px;
   height: 44px;
+}
+main {
+  border-left: 1px solid #8e8e8e;
+  border-right: 1px solid #8e8e8e;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #8e8e8e;
+  padding-bottom: 10px;
+}
+.logo {
+  padding-top: 10px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.links li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  font-family: Cairo;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28.11px;
+  text-align: left;
+  color: #3f3f3f;
+}
+.sign-up-btn {
+  width: 130px;
+  height: 44px;
+  background: #ffffff;
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29.98px;
+  text-align: center;
+  color: #3f3f3f;
 }
