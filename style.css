@@ -1,5 +1,7 @@
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .first-sec {
@@ -29,6 +31,7 @@ span {
   line-height: 93px;
   text-align: left;
   color: #242424;
+  width: 100%;
 }
 .sub-txt {
   font-family: "Cairo" serif;
@@ -98,4 +101,36 @@ a {
   line-height: 29.98px;
   text-align: center;
   color: #3f3f3f;
+}
+@media (max-width: 576px) {
+  .first-sec {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .bold-txt {
+    font-size: 29.03px;
+    line-height: 44.99px;
+    text-align: center;
+  }
+  .left {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  main {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right {
+    width: 100%;
+  }
+  .sub-txt {
+    font-size: 13.19px;
+    line-height: 24.72px;
+    text-align: center;
+  }
 }
